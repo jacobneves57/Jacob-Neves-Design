@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: MyFont;
+    src: url("Fonts/Inter_28pt-Regular.ttf")
+}
+body {
+    font-family: MyFont, Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: #111;
+	background-image:url("Assets/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position:bottom;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+	font-size: 16px;
+}
+@media only screen and (max-width: 930px){
+header {
+    background: #111;
+	background-image:url("Assets/black-smooth-textured-paper-background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position:center;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+	font-size: 10px;
+}
+}
+header p{
+	color:#FFCE00;
+}
+.tagline {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-top: 40px;
+    color: #444;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 80%;
+    max-width: 500px;
+    display: block;
+    margin: 10px 0;
+    border-radius: 6px;
+    
+}
+
+#contact p {
+    margin: 5px 0;
+}
