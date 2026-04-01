@@ -4,8 +4,12 @@
     font-family: MyFont;
     src: url("Fonts/Inter_28pt-Regular.ttf")
 }
+@font-face {
+    font-family: MyFont1;
+    src: url("Fonts/Questrial-Regular.ttf")
+}
 body {
-    font-family: MyFont, Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-family: MyFont, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     margin: 0;
     padding: 0;
     background: #f7f7f7;
@@ -94,7 +98,6 @@ header {
 }
 @media only screen and (max-width: 930px){
 header {
-    background: #111;
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -115,7 +118,9 @@ section {
     max-width: 900px;
     margin: auto;
 }
-
+h1{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
 h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
